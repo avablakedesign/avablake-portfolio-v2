@@ -29,6 +29,10 @@ ol, ul, menu {
     list-style: none;
 }
 
+li {
+    all: unset;
+}
+
 /* For images to not be able to exceed their container */
 img {
     max-inline-size: 100%;
