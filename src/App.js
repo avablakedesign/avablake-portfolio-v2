@@ -1,4 +1,5 @@
 import {Routes, Route} from "react-router-dom"
+import Resume from "./components/Resume.jsx"
 import Layout from "./components/Layout.jsx"
 import AboutMe from "./components/AboutMe.jsx"
 import Contact from "./components/Contact.jsx"
@@ -12,7 +13,8 @@ function App() {
         <Route index element = {<AboutMe/>}/>
         <Route path="/aboutme" element = {<AboutMe/>}/>
         <Route path="/contact" element = {<Contact/>}/>
-        <Route path="/portfolio" element = {<Portfolio/>}/> 
+        <Route path="/portfolio" element = {<Portfolio/>}/>
+        <Route path="/resume" element = {<Resume/>}/> 
       </Route>
     </Routes>
   </div>

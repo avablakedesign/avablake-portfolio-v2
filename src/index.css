@@ -6,3 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.link {
+  color: magenta;
+}
+
+.link-selected {
+  color: blueviolet;
+}
