@@ -1,9 +1,9 @@
 import Nav from "./Nav.jsx"
 const Header = () => {
     return (
-        <header>
+        <header className="header" >
             <div>
-                <h3>Ava Blake</h3>
+                <h3 className ="title">Ava Blake</h3>
             </div>
             <Nav />
         </header>

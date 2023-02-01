@@ -29,7 +29,7 @@ const Nav = () => {
       ];
       return navLinks.map((item)=>{
         return(
-          <li onClick = {()=>setSelectedLink(item.linkName)} className = {selectedLink === item.linkName ? "link-selected" : "link"} key={item.linkName}>
+          <li onClick = {()=>setSelectedLink(item.linkName)} className = {selectedLink === item.linkName ? "link link-selected" : "link"} key={item.linkName}>
             <Link to={item.to}>
               {item.linkText}
             </Link>    

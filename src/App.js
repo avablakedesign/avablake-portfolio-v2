@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio.jsx"
 
 function App() {
   return (
-  <div>
+  <div className="wrapper">
     <Routes>
       <Route path="/" element = {<Layout/>}>
         <Route index element = {<AboutMe/>}/>
