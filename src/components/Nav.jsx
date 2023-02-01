@@ -3,7 +3,7 @@ import {Link, useLocation} from "react-router-dom"
 const Nav = () => {
     const location = useLocation()
     // This is taking the pathname from location and using the value without a slash as the default state.
-    const [selectedLink, setSelectedLink] = useState(location.pathname.slice(1));
+    const [selectedLink, setSelectedLink] = useState(location.pathname.slice(1) || "aboutme");
     const renderNavLinks = () => {
       const navLinks = [
         {
