@@ -3,7 +3,7 @@
   --color_font: white;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
   background-color: var(--color_bg);
 }
 body {
@@ -33,6 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 1.75rem;
 }
 .title {
   font-size: 1.5rem;
@@ -44,5 +45,121 @@ body {
 
 .link-selected {
   color: blueviolet;
+}
+
+.content {
+  min-height: 100vh;
+  margin: 0.5rem 0;
+}
+
+.skill-set {
+  font-size: 1.25rem;
+  border-bottom: 1px solid cyan;
+  display: inline-block;
+}
+
+.page-header {
+  font-size: 1.5rem;
+  border-bottom: 1px solid cyan;
+  display: inline-block;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-project {
+  --cardheight: 12.5rem;
+  cursor: pointer;
+  border: 2px solid magenta;
+  font-size: 0.75rem;
+  width: calc(var(--cardheight) * (19/9));
+  margin: 1rem 2.5rem;
+  /* height: var(--cardheight) ; */
+  border-radius: 0.5rem;
+  display:flex;
+  flex-direction:column;
+  transition: all 0.4s;
+}
+
+.portfolio-project:hover {
+  transform: scale(1.1);
+}
+
+.portfolio-project-image {
+  width: 100%;
+  margin: 1rem 0;
+}
+.portfolio-link {
+  width: max-content;
+  display: inline-block;
+  transition: all 0.2s;
+}
+.portfolio-link:hover{
+  color:magenta;
+}
+
+.aboutme-wrapper {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  background-color: var(--color_font);
+  color: var(--color_bg);
+  display: block;
+}
+
+.text-area {
+  background-color: var(--color_font);
+  color: var(--color_bg);
+  display: block;
+  width: 45ch;
+}
+
+.submit {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.submit:hover {
+  color:magenta;
+}
+
+.download {
+  cursor: pointer;
+  transition: all 0.2s; 
+}
+
+.download:hover {
+  color:magenta;
+}
+
+.page-header {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.footer {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-wrapper a {
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.footer-wrapper a:hover {
+  color:magenta;
 }
 

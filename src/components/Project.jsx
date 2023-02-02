@@ -1,4 +1,4 @@
-const PortfolioProject = (props) => {
+const Project = (props) => {
     return (
         <div className = "portfolio-project">
             <div>
@@ -6,16 +6,16 @@ const PortfolioProject = (props) => {
                     {props.title}
                 </h3>
             </div>
-            <div>
+            <div className = "portfolio-project-image">
                 <img src={props.image} alt={props.imageAlt}/>
             </div>
-            <div>
+            <div className = "portfolio-link">
                 <a href={props.portfolioLink}>{props.portfolioLinkName}</a>
             </div>
-            <div>
+            <div className = "portfolio-link">
                 <a href={props.githubLink}>{props.githubLinkName}</a>
             </div>
         </div>
     )
 }
-export default PortfolioProject 
+export default Project 

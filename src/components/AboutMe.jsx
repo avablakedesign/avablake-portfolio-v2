@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <div>
+        <div className = "aboutme-wrapper">
             <div>
                 <img src="/flower.gif" alt="This is a beautiful gif of a white rose."/>
             </div>

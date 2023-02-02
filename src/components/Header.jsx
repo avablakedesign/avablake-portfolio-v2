@@ -1,11 +1,11 @@
-import Nav from "./Nav.jsx"
+import Navigation from "./Navigation.jsx"
 const Header = () => {
     return (
-        <header className="header" >
+        <header className="header">
             <div>
                 <h3 className ="title">Ava Blake</h3>
             </div>
-            <Nav />
+            <Navigation />
         </header>
     )
 }

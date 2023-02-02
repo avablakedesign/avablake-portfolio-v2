@@ -35,7 +35,7 @@ const Contact = () => {
                 <div>
                     <label>Name</label>
                     {formik.errors.name && <p>{formik.errors.name}</p>}
-                    <input
+                    <input className = "input"
                         name="name"
                         value={formik.values.name}
                         onChange={formik.handleChange}
@@ -45,7 +45,7 @@ const Contact = () => {
                 <div>
                     <label>Email</label>
                     {formik.errors.email && <p>{formik.errors.email}</p>}
-                    <input
+                    <input className = "input"
                         name="email"
                         value={formik.values.email}
                         onChange={formik.handleChange}
@@ -55,7 +55,7 @@ const Contact = () => {
                 <div>
                     <label>Message</label>
                     {formik.errors.message && <p>{formik.errors.message}</p>}
-                    <textarea 
+                    <textarea className = "text-area" 
                         name="message"
                         value={formik.values.message}
                         onChange={formik.handleChange}
@@ -64,7 +64,7 @@ const Contact = () => {
                     </textarea>
                 </div>
                 <div>
-                    <button type="submit">Submit</button>
+                    <button className="submit" type="submit">Submit</button>
                 </div>
             </form>
         </div>

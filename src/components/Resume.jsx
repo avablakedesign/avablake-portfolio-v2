@@ -13,8 +13,13 @@ const Resume = () => {
     }
     return (
         <div>
-            <h2>Resume</h2> 
+            <h2 className = "page-header">Resume</h2> 
+            <div className = "download">
             <a href="avablakeresume.docx" download = {true}>Download</a>
+            </div>
+            <div className = "skill-set">
+                <h3>My Skill Set</h3>
+            </div> 
             {renderProficiencies()}
         </div>
     )
