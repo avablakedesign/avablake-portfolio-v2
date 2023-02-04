@@ -1,5 +1,6 @@
+//Portfolio content
 import Project from "./Project"
-
+//Renders individual projects as components.
 const Portfolio = () => {
     return (
         <div className = "portfolio">

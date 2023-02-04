@@ -1,3 +1,4 @@
+//About me content
 const AboutMe = () => {
     return (
         <div className = "aboutme-wrapper">

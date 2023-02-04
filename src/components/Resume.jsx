@@ -1,5 +1,7 @@
+//This renders resume content.
 const Resume = () => {
     const proficiencies = ["HTML", "CSS", "JavaScript", "MERN Stack - MongoDB, Express.js, React, Node.js"];
+    //This transforms an array into HTML through mapping.
     const renderProficiencies = () => {
         return proficiencies.map((item) => {
             return (

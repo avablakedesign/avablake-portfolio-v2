@@ -1,3 +1,4 @@
+//This component represents an individual portfolio project.
 const Project = (props) => {
     return (
         <div className = "portfolio-project">

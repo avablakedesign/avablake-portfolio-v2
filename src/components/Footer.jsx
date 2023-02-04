@@ -1,3 +1,4 @@
+//Footer content
 const Footer = () => {
     return (
         <footer className="footer">

@@ -1,15 +1,20 @@
+//Formik is a library for handling, I'm importing the use formik hook.
 import {useFormik} from "formik"
+//This is the regex for an email.
 const regexEmail = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/
 const Contact = () => {
     const formik = useFormik({
+        //Setting up the initial values for the inputs
         initialValues: {
             name: "",
             email: "",
             message: ""
         },
+        //This is handling when the form is submitted.
         onSubmit:(values) => {
             console.log(values)
         },
+        //Validate checks values if they meet conditions, if not then create an error for that specific value.
         validate:(values) => {
             const errors = {}
             if (!values.name) {
@@ -26,8 +31,10 @@ const Contact = () => {
             }
             return errors
         },
+        //focus is when a user has interacted with an element on the page, so blur is when you lose focus.
         validateOnBlur:true
     })
+    //setting up the form
     return (
         <div>
             <h2>Contact</h2>

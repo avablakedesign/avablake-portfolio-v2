@@ -1,7 +1,9 @@
+/* Setting root colors as CSS variables */
 :root {
   --color_bg: black;
   --color_font: white;
 }
+/*Setting a root font size*/
 html {
   font-size: 14px;
   background-color: var(--color_bg);
@@ -74,6 +76,7 @@ body {
   cursor: pointer;
   border: 2px solid magenta;
   font-size: 0.75rem;
+  /*This calculates the aspect ration from the css variable called cardheight*/
   width: calc(var(--cardheight) * (19/9));
   margin: 1rem 2.5rem;
   /* height: var(--cardheight) ; */

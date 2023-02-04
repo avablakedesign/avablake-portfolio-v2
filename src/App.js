@@ -1,10 +1,11 @@
+//importing the routes and the layout.
 import {Routes, Route} from "react-router-dom"
 import Resume from "./components/Resume.jsx"
 import Layout from "./components/Layout.jsx"
 import AboutMe from "./components/AboutMe.jsx"
 import Contact from "./components/Contact.jsx"
 import Portfolio from "./components/Portfolio.jsx"
-
+//laying out the structure of the routes.
 function App() {
   return (
   <div className="wrapper">
