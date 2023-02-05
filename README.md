@@ -22,6 +22,7 @@ N/A
 - [Questions](#questions)
  ## Usage
  ![screenshot](avablake-portfolio-2-screenshot.png)
+ <a href="https://avablake-portfolio-v2.herokuapp.com/">Portfolio Link</a>
 
 
  ## License
@@ -166,4 +167,4 @@ N/A
  ## Tests
  N/A
  ## Questions
- [My Github: avablakedesign](https://avablake-portfolio-v2.herokuapp.com/)
+ [avablakedesign](https://avablake-portfolio-v2.herokuapp.com/)
