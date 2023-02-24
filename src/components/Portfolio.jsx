@@ -10,7 +10,7 @@ const Portfolio = () => {
             <Project title="Calendar" image="screenshot-one.png" portfolioLink="https://avablakedesign.github.io/avablake-calendar-work-day-scheduler/" githubLink="https://github.com/avablakedesign/avablake-calendar-work-day-scheduler" imageAlt="A calendar" githubLinkName="Calendar Github" portfolioLinkName="Calendar" />
             <Project title="Weather Dashboard" image="weather-screenshot.png" portfolioLink="https://avablakedesign.github.io/avablake-weather-dashboard/" githubLink="https://github.com/avablakedesign/avablake-weather-dashboard" imageAlt="Weather" githubLinkName="Weather Dashboard Github" portfolioLinkName="Weather Dashboard" />
             <Project title="Give Manna" image="screenshot-1.png" portfolioLink="https://frutaseca.github.io/Give-Manna/" githubLink="https://github.com/frutaseca/Give-Manna" imageAlt="A picture of a nonprofit" githubLinkName="Non-Profit Github" portfolioLinkName="Non-Profit" />
-            <Project title="Give Manna" image="screenshot-1.png" portfolioLink="https://dragonpunk.herokuapp.com/" githubLink="https://github.com/avablakedesign/dragonpunk" imageAlt="A hobby shop website" githubLinkName="Dragonpunk" portfolioLinkName="Dragon-Punk" />
+            <Project title="Dragonpunk" image="dragonpunk_screenshot.png" portfolioLink="https://dragonpunk.herokuapp.com/" githubLink="https://github.com/avablakedesign/dragonpunk" imageAlt="A hobby shop website" githubLinkName="Dragonpunk" portfolioLinkName="Dragon-Punk" />
         </div>
     )
 }
